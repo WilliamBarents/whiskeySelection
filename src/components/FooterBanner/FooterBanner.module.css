@@ -1,0 +1,33 @@
+.footer-container {
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  filter: brightness(25%);
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 35%;
+  margin: 60px 60px;
+}
+
+.banner-text__title {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.banner-text__teaser {
+  font-size: 15px;
+}

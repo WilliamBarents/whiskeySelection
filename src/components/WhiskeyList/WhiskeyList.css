@@ -1,0 +1,68 @@
+.whiskey-list {
+  margin-bottom: 60px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 60px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  color: gray;
+  background: none;
+  border-radius: 30px;
+  transition: all 1s ease;
+}
+
+.active {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid gray;
+}
+
+.tab:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.item-notes {
+  list-style: none;
+  transform: skew(15deg);
+}
+
+.islands {
+  background-image: linear-gradient(45deg, rgb(215, 30, 68), rgb(128, 27, 52));
+}
+
+.islay {
+  background-image: linear-gradient(
+    45deg,
+    rgb(165, 35, 142),
+    rgb(110, 38, 113)
+  );
+}
+
+.highlands {
+  background-image: linear-gradient(45deg, rgb(86, 52, 148), rgb(50, 39, 115));
+}
+
+.lowlands {
+  background-image: linear-gradient(45deg, rgb(6, 99, 174), rgb(23, 66, 114));
+}
+
+.speyside {
+  background-image: linear-gradient(45deg, rgb(26, 180, 103), rgb(0, 123, 70));
+}
+
+.campbeltown {
+  background-image: linear-gradient(
+    45deg,
+    rgb(243, 180, 27),
+    rgb(210, 157, 42)
+  );
+}
